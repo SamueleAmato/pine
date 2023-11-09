@@ -1,5 +1,5 @@
 # pine
 
 <p align="center">
-  <img src="/images/logo.png" alt=""/>
+  <img src="images/logo.png" alt=""/>
 </p>
