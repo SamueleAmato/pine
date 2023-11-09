@@ -1,10 +1,9 @@
 <p align="center">
   <img width="200" src="images/logo.png" alt=""/>
 </p>
- <h6><p align="center">
-    a minimal descriptio of the program.
-</p></h6>
-
+<p align="center">
+    <i>a minimal program description.</i><br>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/release-v0.1.0-141449" alt=""/>
