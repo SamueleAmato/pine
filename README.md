@@ -1,2 +1,5 @@
 # pine
-No description
+
+<p align="center">
+  <img src="/images/logo.png" alt=""/>
+</p>
