@@ -11,4 +11,20 @@
   <img src="https://img.shields.io/badge/author-SamueleAmato-141449" alt=""/>
 </p>
 
+
+<br>
+
 `curl -sSL https://raw.githubusercontent.com/SamueleAmato/pine/main/install.sh | bash`
+
+<br>
+
+## To-Do List
+
+- [X] Initialize the repository
+- [X] Create the project folder structure
+- [ ] Implement the main feature A
+- [ ] Add CSS styles
+- [ ] Write documentation
+- [X] Fix the bug in feature B
+- [ ] Test on different browsers
+- [ ] Publish the project
