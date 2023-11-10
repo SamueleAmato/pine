@@ -18,7 +18,7 @@
 
 <br>
 
-## To-Do List
+# To-Do List
 
 - [X] Initialize the repository
 - [X] Create the project folder structure
