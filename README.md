@@ -2,7 +2,7 @@
   <img width="200" src="images/logo.png" alt=""/>
 </p>
 <p align="center">
-    <i>a minimal program description.</i><br>
+    <i>A minimal CLI note, notebook, and to-do list manager.</i><br>
 </p>
 
 <p align="center">
