@@ -22,28 +22,48 @@
 ## Usage
 _Pine is a tool designed for **organizing and managing** notes and notebooks. Below, you'll find information on how to get started:_
 
-### Creating a Notebook
+#### Creating a Notebook
 To create a new notebook, use the following command:
   - ```pine --create notebook --name <notebook_name>```
-### Creating a Note
+#### Creating a Note
 To create a standalone note without associating it with a notebook, use:
   - ```pine --create note --name <note_name>```
-### Creating a Note in a Notebook
+#### Creating a Note in a Notebook
 To create a note within a specific notebook, use:
   - ```pine --create note --tonotebook <notebook_name> --name <note_name>```
-### Remove Note
+#### Remove Note
 To remove a note, use:
   - ```pine --remove note --name <note_name>```
-### Remove a Note in a Notebook
+#### Remove a Note in a Notebook
 To remove a note within a specific notebook, use:
   - ```pine --remove note --name <note_name> --innotebook <notebook_name>```
-### Remove Notebook
+#### Remove Notebook
 To remove a notebook, use the following command:
   - ```pine --remove notebook --name <notebook_name>```
-
-
-
-
+#### Moving a Note to a Notebook
+To move a note that is not in any notebook to a specific notebook, use:
+  - ```pine --move --name <note_name> --moveto <notebook_name>```
+#### Moving a Note Within a Notebook
+To move a note that is already in a notebook to another notebook, use:
+- ```pine --move --name <note_name> --innotebook <source_notebook> --moveto <destination_notebook>```
+#### List Notebooks
+To list all notebooks, use:
+  - ```pine --list notebook```
+#### List Standalone Notes
+To list standalone notes (not associated with any notebook), use:
+  - ```pine --list note```
+#### List Notes in a Notebook
+To list notes within a specific notebook, use:
+  - ```pine --list note --innotebook <notebook_name>```
+#### Open a Standalone Note
+To open a standalone note, use:
+  - ```pine --open --name <note_name>```
+#### Open a Note in a Notebook
+To open a note within a specific notebook, use:
+  - ```pine --open --name <note_name> --innotebook <notebook_name>```
+#### Change the text editor
+To change the text editor used to open note, use:
+  -  ```pine --set-editor <editor_name>``` _es: vim/nvim, micro.
 ## To-Do List
 
 - [X] Initialize the repository.
