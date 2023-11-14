@@ -11,6 +11,15 @@
   <img src="https://img.shields.io/badge/author-SamueleAmato-141449" alt=""/>
 </p>
 
+<p align="center">
+  <a href="#installation">Installation</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#usage">Usage</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#usage">Contributing</a>
+  &nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+</p>
+
 ## Installation
 
 <br>
@@ -20,7 +29,7 @@
 <br>
 
 ## Usage
-_Pine is a tool designed for **organizing and managing** notes and notebooks. Below, you'll find information on how to get started:_
+**Pine** is a tool designed for **organizing and managing** notes and notebooks. Below, you'll find information on how to get started:
 
 #### Creating a Notebook
 To create a new notebook, use the following command:
