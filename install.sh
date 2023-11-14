@@ -35,8 +35,8 @@ mkdir -p ~/.pine
 mkdir -p ~/.pine/note
 mkdir -p ~/.pine/notebook
 
-# Create .pine/config.json with {"editor":"vi"} content
-echo '{"editor":"vi"}' > ~/.pine/config.json
+# Create .pine/.config.json with {"editor":"vi"} content
+echo '{"editor":"vi"}' > ~/.pine/.config.json
 
 # Print installation completed message
 echo "Installation completed"
