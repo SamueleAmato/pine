@@ -26,8 +26,10 @@
 
 `curl -sSL https://raw.githubusercontent.com/SamueleAmato/pine/main/install.sh | bash`
 
-#### Build yourself
-
+#### Build it yourself
+`git clone https://github.com/SamueleAmato/pine`
+`cd pine`
+`cargo build`
 <br>
 
 ## Usage
