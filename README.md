@@ -86,6 +86,8 @@ To change the text editor used to open note, use:
 - [ ] Add telegram todo synch.
 - [ ] Add todo list.
 - [ ] add dropbox synch.
+- [ ] export md to pdf
+- [ ] export tex to pdf
 
 ## Contributing      
 If you encounter issues or have suggestions for [pine](https://github.com/SamueleAmato), please report them in our "Issues" section. Provide detailed information for quick resolution or implementation. Thanks for contributing! Additionally, submit pull requests to enhance the code and add new features.
