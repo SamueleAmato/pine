@@ -1,18 +1,14 @@
 #!/bin/bash
 
-# Directory paths
-PINE_DIR="$HOME/.pine"
-NOTEBOOK_DIR="$PINE_DIR/notebook"
-CONFIG_DIR="$HOME/.config"
+# Create .pine directory in the home folder
+mkdir -p ~/.pine
 
-# Create .pine directory
-mkdir -p "$PINE_DIR"
+# Create .pine/note and .pine/notebook directories
+mkdir -p ~/.pine/note
+mkdir -p ~/.pine/notebook
 
-# Create notebook and .config directories inside .pine
-mkdir -p "$NOTEBOOK_DIR"
-mkdir -p "$CONFIG_DIR"
+# Create .pine/config.json with {"editor":"vi"} content
+echo '{"editor":"vi"}' > ~/.pine/config.json
 
-echo "Installation complete. Directories created:"
-echo "  - $PINE_DIR"
-echo "  - $NOTEBOOK_DIR"
-echo "  - $CONFIG_DIR"
+# Print installation completed message
+echo "Installation completed"
