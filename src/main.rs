@@ -7,22 +7,9 @@ use std::{fs, io};
 mod todo_manager;
 
 /*
-
 Created by: SamueleAmato
 
 Version: 0.1.0
-
-TODO
-Add telegram todo sync?
-Add ls note / ls notebook_name                     [X]
-Add open text editor when create note              [X]
-Add open note                                      [X]
-EDITOR = json.parse ecc ecc                        [X]
-Add warning before removing note / notebook
-Add rename option
-Add remove for todo task
-Add dropbox synch option --dropbox-synch on/off
-
 */
 
 fn main() {
