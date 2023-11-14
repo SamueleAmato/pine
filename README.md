@@ -26,6 +26,8 @@
 
 `curl -sSL https://raw.githubusercontent.com/SamueleAmato/pine/main/install.sh | bash`
 
+#### Build yourself
+
 <br>
 
 ## Usage
